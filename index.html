@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>John Barry V. Blase | Computer Science Engineer - Portfolio</title>
+
+    <!-- Meta Tags for SEO & Social Sharing -->
+    <meta name="description" content="Portfolio of John Barry V. Blase, 4th Year Computer Science Engineer studying at ICCT COLLEGES. Featuring Project Nexus and software design development." />
+    <meta name="keywords" content="John Barry V. Blase, Computer Science Engineer, ICCT COLLEGES, Project Nexus, Portfolio, Version Control, GitHub" />
+    <meta name="author" content="John Barry V. Blase" />
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="John Barry V. Blase | Portfolio" />
+    <meta property="og:description" content="4th Year Computer Science Engineer at ICCT COLLEGES. Demonstrating version control, collaboration, and Project Nexus." />
+    <meta property="og:type" content="website" />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- Ambient Aurora Glow Canvas -->
+    <div class="ambient-glow" aria-hidden="true">
+        <div class="ambient-glow__circle-1"></div>
+        <div class="ambient-glow__circle-2"></div>
+    </div>
+
+    <!-- ================= HEADER & NAVIGATION ================= -->
+    <header class="site-header" id="top">
+        <div class="container">
+            <nav class="navbar" aria-label="Main Navigation">
+                <a href="#home" class="navbar__brand">
+                    <span class="brand-dot"></span>
+                    <span class="brand-title">JOHN BARRY <span>BLASE</span></span>
+                </a>
+
+                <div class="navbar__nav">
+                    <ul class="navbar__links" id="navbarLinks">
+                        <li><a href="#home" class="active">Home</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#nexus">Project Nexus</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+
+                    <div class="navbar__actions">
+                        <!-- Theme Toggle Button -->
+                        <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Toggle dark/light mode" title="Toggle theme">
+                            <svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M12 4.5a7.5 7.5 0 1 0 0 15 7.5 7.5 0 0 0 0-15zM2 12a1 1 0 0 1 1-1h2a1 1 0 0 1 0 2H3a1 1 0 0 1-1-1zm16 0a1 1 0 0 1 1-1h2a1 1 0 0 1 0 2h-2a1 1 0 0 1-1-1zM12 2a1 1 0 0 1 1 1v2a1 1 0 0 1-2 0V3a1 1 0 0 1 1-1zm0 16a1 1 0 0 1 1 1v2a1 1 0 0 1-2 0v-2a1 1 0 0 1 1-1zm-7.07-13.07a1 1 0 0 1 1.41 0l1.42 1.41a1 1 0 0 1-1.42 1.42L4.93 6.34a1 1 0 0 1 0-1.41zm11.31 11.31a1 1 0 0 1 1.42 0l1.41 1.42a1 1 0 0 1-1.41 1.41l-1.42-1.41a1 1 0 0 1 0-1.42zM6.34 19.07a1 1 0 0 1 0-1.41l1.41-1.42a1 1 0 1 1 1.42 1.42l-1.42 1.41a1 1 0 0 1-1.41 0zm11.32-11.32a1 1 0 0 1 0-1.41l1.41-1.42a1 1 0 1 1 1.42 1.42l-1.42 1.41a1 1 0 0 1-1.41 0z"/>
+                            </svg>
+                            <svg class="moon-icon" style="display: none;" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M12.3 2a10 10 0 0 0-.19 20 10.04 10.04 0 0 0 9.95-8.77.75.75 0 0 0-.82-.84 8.5 8.5 0 0 1-8.5-8.5.75.75 0 0 0-.84-.82A10.3 10.3 0 0 0 12.3 2z"/>
+                            </svg>
+                        </button>
+
+                        <!-- Mobile Menu Button -->
+                        <button class="nav-toggle-btn" id="navToggleBtn" aria-label="Toggle navigation menu" aria-expanded="false">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <!-- ================= HERO SECTION ================= -->
+        <section class="hero" id="home">
+            <div class="container">
+                <div class="hero__grid">
+                    <div class="hero__content">
+                        <div class="hero__badge-container">
+                            <div class="badge">
+                                <span class="badge-dot"></span>
+                                4th Year Computer Science Engineer · ICCT COLLEGES
+                            </div>
+                        </div>
+
+                        <h1 class="hero__title">
+                            Hi, I'm <span class="highlight">John Barry V. Blase</span>
+                        </h1>
+
+                        <p class="hero__subtitle">
+                            Aspiring Computer Science Engineer passionate about software design, collaborative engineering, and building resilient systems through version control and modern development practices.
+                        </p>
+
+                        <!-- Philosophy Quote Card -->
+                        <div class="hero__quote-card">
+                            <p class="hero__quote-text">
+                                "Throughout this journey challenges can shape an individual as time goes on leading me to never give up for my goals."
+                            </p>
+                            <span class="hero__quote-author">— John Barry V. Blase</span>
+                        </div>
+
+                        <div class="hero__cta-group">
+                            <a href="#nexus" class="btn btn-primary">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                                </svg>
+                                Explore Project Nexus
+                            </a>
+                            <a href="#about" class="btn btn-secondary">
+                                Learn About Me
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Hero Aside Profile Card -->
+                    <aside class="hero__aside">
+                        <div class="glass-card profile-card">
+                            <div class="profile-card__header">
+                                <div class="profile-avatar">
+                                    JB
+                                </div>
+                                <div class="profile-meta">
+                                    <h3>John Barry V. Blase</h3>
+                                    <p>Computer Science Engineer</p>
+                                </div>
+                            </div>
+
+                            <div class="profile-details-list">
+                                <div class="profile-detail-item">
+                                    <span class="profile-detail-label">Institution</span>
+                                    <span class="profile-detail-value">ICCT COLLEGES</span>
+                                </div>
+                                <div class="profile-detail-item">
+                                    <span class="profile-detail-label">Year Level</span>
+                                    <span class="profile-detail-value">4th Year Student</span>
+                                </div>
+                                <div class="profile-detail-item">
+                                    <span class="profile-detail-label">Active Project</span>
+                                    <span class="profile-detail-value">PROJECT-NEXUS</span>
+                                </div>
+                                <div class="profile-detail-item">
+                                    <span class="profile-detail-label">Specialization</span>
+                                    <span class="profile-detail-value">Software Design &amp; Git</span>
+                                </div>
+                            </div>
+
+                            <div class="social-links-grid">
+                                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-link-btn" title="GitHub Profile">
+                                    <svg viewBox="0 0 24 24">
+                                        <path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.54-3.88-1.54-.52-1.32-1.28-1.67-1.28-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.75 1.18 1.75 1.18 1.02 1.75 2.68 1.24 3.34.94.1-.74.4-1.24.72-1.52-2.55-.29-5.23-1.28-5.23-5.67 0-1.25.45-2.27 1.17-3.07-.12-.29-.5-1.46.11-3.05 0 0 .95-.3 3.1 1.17.9-.25 1.87-.38 2.83-.38.96 0 1.93.13 2.83.38 2.15-1.47 3.1-1.17 3.1-1.17.61 1.59.23 2.76.11 3.05.73.8 1.17 1.82 1.17 3.07 0 4.4-2.69 5.38-5.25 5.67.41.36.77 1.07.77 2.16v3.2c0 .31.21.67.8.56C20.7 21.39 24 17.08 24 12 24 5.73 18.27.5 12 .5z"/>
+                                    </svg>
+                                    GitHub
+                                </a>
+                                <a href="#nexus" class="social-link-btn" title="Project Nexus Repo">
+                                    <svg viewBox="0 0 24 24">
+                                        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/>
+                                    </svg>
+                                    Project Nexus
+                                </a>
+                                <a href="mailto:contact@example.com" class="social-link-btn" title="Send Email">
+                                    <svg viewBox="0 0 24 24">
+                                        <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                                    </svg>
+                                    Email
+                                </a>
+                                <a href="#contact" class="social-link-btn" title="Connect">
+                                    <svg viewBox="0 0 24 24">
+                                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm1.07-7.75l-.9.92A1.5 1.5 0 0 0 13 13h-2v-.5c0-.4.16-.78.44-1.06l1.24-1.26a2 2 0 1 0-3.41-1.42H7.26a4 4 0 1 1 6.81 2.49z"/>
+                                    </svg>
+                                    Inquire
+                                </a>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= ABOUT ME SECTION ================= -->
+        <section class="section section-alt" id="about">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Academic Profile &amp; Mindset</span>
+                    <h2 class="section-title">About Me</h2>
+                    <p class="section-subtitle">
+                        Developing technical expertise, leadership, and a steadfast dedication to software excellence.
+                    </p>
+                </div>
+
+                <div class="about__grid">
+                    <div class="about__text-block">
+                        <h3>John Barry V. Blase</h3>
+                        <p>
+                            I am a <strong>4th year Computer Science Engineer studying at ICCT COLLEGES</strong>. Throughout this journey challenges can shape an individual as time goes on leading me to never give up for my goals.
+                        </p>
+                        <p>
+                            My academic and engineering journey is centered on mastering software development methodologies, embracing version control best practices, and collaborating effectively within team settings. Through rigorous coursework and practical projects like Project Nexus, I strive to build solutions that combine functional precision with clean design.
+                        </p>
+
+                        <div class="about__highlights">
+                            <div class="highlight-box">
+                                <div class="highlight-box__icon">
+                                    <svg viewBox="0 0 24 24">
+                                        <path d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3zm6.82 6L12 12.72 5.18 9 12 5.28 18.82 9zM17 15.99l-5 2.73-5-2.73v-3.72L12 15l5-2.73v3.72z"/>
+                                    </svg>
+                                </div>
+                                <h4>ICCT Colleges</h4>
+                                <p>Bachelor of Science in Computer Science Engineering (Senior Year)</p>
+                            </div>
+
+                            <div class="highlight-box">
+                                <div class="highlight-box__icon">
+                                    <svg viewBox="0 0 24 24">
+                                        <path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"/>
+                                    </svg>
+                                </div>
+                                <h4>Software Design</h4>
+                                <p>Architecting modular applications with collaborative Git workflows</p>
+                            </div>
+
+                            <div class="highlight-box">
+                                <div class="highlight-box__icon">
+                                    <svg viewBox="0 0 24 24">
+                                        <path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/>
+                                    </svg>
+                                </div>
+                                <h4>Team Collaboration</h4>
+                                <p>Effective cross-functional coordination and peer code reviews</p>
+                            </div>
+
+                            <div class="highlight-box">
+                                <div class="highlight-box__icon">
+                                    <svg viewBox="0 0 24 24">
+                                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                    </svg>
+                                </div>
+                                <h4>Goal Driven</h4>
+                                <p>Overcoming technical hurdles with continuous resilience and grit</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Philosophy Showcase Card -->
+                    <div class="philosophy-card">
+                        <div class="philosophy-card__header">
+                            <span class="philosophy-badge">Core Philosophy</span>
+                        </div>
+                        <p class="philosophy-quote">
+                            "Throughout this journey challenges can shape an individual as time goes on leading me to never give up for my goals."
+                        </p>
+                        <div class="philosophy-author">
+                            <span class="philosophy-author-dot"></span>
+                            <div>
+                                <span class="philosophy-author-text">John Barry V. Blase</span>
+                                <div class="philosophy-author-role">Computer Science Engineer, ICCT COLLEGES</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= PROJECT-NEXUS FEATURED SECTION ================= -->
+        <section class="section" id="nexus">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Featured Repository &amp; Software Design</span>
+                    <h2 class="section-title">PROJECT-NEXUS</h2>
+                    <p class="section-subtitle">
+                        Software design project demonstrating version control, collaboration, and project development using GitHub.
+                    </p>
+                </div>
+
+                <div class="nexus-feature-card">
+                    <div class="nexus-feature-card__glow" aria-hidden="true"></div>
+
+                    <!-- Card Header -->
+                    <div class="nexus-header">
+                        <div class="nexus-title-group">
+                            <h3>
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="var(--color-primary)">
+                                    <path d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/>
+                                </svg>
+                                PROJECT-NEXUS
+                            </h3>
+                            <p>Software Design Project · Version Control &amp; Team Collaboration</p>
+                        </div>
+
+                        <div class="nexus-repo-actions">
+                            <span class="badge">
+                                <span class="badge-dot"></span>
+                                Active Development
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Purpose Callout Box (Exact Content from User Request) -->
+                    <div class="nexus-purpose-box">
+                        <h4>
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
+                            </svg>
+                            Purpose
+                        </h4>
+                        <p>
+                            This repository is used to organize our project files, track our development progress, and collaborate with our team members.
+                        </p>
+                    </div>
+
+                    <!-- Core Pillars of Project Nexus -->
+                    <div class="nexus-pillars-grid">
+                        <div class="nexus-pillar-card">
+                            <div class="pillar-icon">
+                                <svg viewBox="0 0 24 24">
+                                    <path d="M6 3a3 3 0 0 0-3 3c0 1.3.8 2.4 2 2.8v6.4a3 3 0 1 0 2 0V9.2c1.2-.4 2-1.5 2-2.8a3 3 0 0 0-3-3zm0 2a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm12 6a3 3 0 0 0-3 3c0 1.3.8 2.4 2 2.8v1.4a3 3 0 1 0 2 0v-1.4c1.2-.4 2-1.5 2-2.8a3 3 0 0 0-3-3zm0 2a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                                </svg>
+                            </div>
+                            <h4>Version Control</h4>
+                            <p>
+                                Implementing robust Git branching strategies, incremental commits, conflict resolution, and atomic pull requests to maintain code history integrity.
+                            </p>
+                        </div>
+
+                        <div class="nexus-pillar-card">
+                            <div class="pillar-icon">
+                                <svg viewBox="0 0 24 24">
+                                    <path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/>
+                                </svg>
+                            </div>
+                            <h4>Team Collaboration</h4>
+                            <p>
+                                Facilitating seamless communication across team members, organizing project modules, assigning tasks, and synchronizing code reviews on GitHub.
+                            </p>
+                        </div>
+
+                        <div class="nexus-pillar-card">
+                            <div class="pillar-icon">
+                                <svg viewBox="0 0 24 24">
+                                    <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/>
+                                </svg>
+                            </div>
+                            <h4>Project Development</h4>
+                            <p>
+                                Tracking milestones, organizing deliverables, validating requirements, and ensuring every software design specification is fulfilled.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Terminal Simulation Box -->
+                    <div class="terminal-card" aria-label="Terminal demonstration">
+                        <div class="terminal-header">
+                            <div class="terminal-dots">
+                                <span class="terminal-dot red"></span>
+                                <span class="terminal-dot yellow"></span>
+                                <span class="terminal-dot green"></span>
+                            </div>
+                            <span class="terminal-title">bash — project-nexus-workspace</span>
+                        </div>
+                        <div class="terminal-body">
+                            <p class="terminal-line"><span class="terminal-comment"># Project Nexus - Version Control Workflow</span></p>
+                            <p class="terminal-line"><span class="terminal-prompt">user@icct:~$</span> git clone https://github.com/johnbarry/project-nexus.git</p>
+                            <p class="terminal-line"><span class="terminal-prompt">user@icct:~$</span> cd project-nexus</p>
+                            <p class="terminal-line"><span class="terminal-prompt">user@icct:~$</span> git checkout -b feature/software-design-nexus</p>
+                            <p class="terminal-line"><span class="terminal-prompt">user@icct:~$</span> git commit -m "feat: organize project files and collaborate with team members"</p>
+                            <p class="terminal-line"><span class="terminal-success">[feature/software-design-nexus 92890b7] feat: organize project files and collaborate with team members</span></p>
+                            <p class="terminal-line"><span class="terminal-prompt">user@icct:~$</span> git push origin feature/software-design-nexus</p>
+                            <p class="terminal-line"><span class="terminal-success">&#10003; Branch pushed successfully. Pull request opened for team review.</span></p>
+                        </div>
+                    </div>
+
+                    <!-- Tech Stack Pills & Links -->
+                    <div class="nexus-footer-meta" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+                        <div class="pill-list">
+                            <span class="pill-item">GitHub Repository</span>
+                            <span class="pill-item">Version Control</span>
+                            <span class="pill-item">Team Collaboration</span>
+                            <span class="pill-item">Software Design</span>
+                            <span class="pill-item">HTML5 &amp; CSS3</span>
+                            <span class="pill-item">ICCT Colleges</span>
+                        </div>
+
+                        <div style="display: flex; gap: 0.75rem;">
+                            <a href="#about" class="btn btn-secondary btn-sm">About Author</a>
+                            <a href="#contact" class="btn btn-primary btn-sm">Connect with Team</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= SKILLS SECTION ================= -->
+        <section class="section section-alt" id="skills">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Technical Competencies</span>
+                    <h2 class="section-title">Skills &amp; Tools</h2>
+                    <p class="section-subtitle">
+                        Key skills developed through academic studies at ICCT COLLEGES and practical software engineering projects.
+                    </p>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Category 1: Version Control & GitHub -->
+                    <div class="skill-category-card">
+                        <div class="skill-category-header">
+                            <div class="skill-category-icon">
+                                <svg viewBox="0 0 24 24">
+                                    <path d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/>
+                                </svg>
+                            </div>
+                            <h3>Git &amp; GitHub</h3>
+                        </div>
+
+                        <div class="skill-items-list">
+                            <div class="skill-item-row">
+                                <div class="skill-name-meta">
+                                    <span>Version Control &amp; Git Workflow</span>
+                                    <span>92%</span>
+                                </div>
+                                <div class="skill-level-bar">
+                                    <div class="skill-level-fill" style="width: 92%;"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item-row">
+                                <div class="skill-name-meta">
+                                    <span>Branching, Merging &amp; PRs</span>
+                                    <span>88%</span>
+                                </div>
+                                <div class="skill-level-bar">
+                                    <div class="skill-level-fill" style="width: 88%;"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item-row">
+                                <div class="skill-name-meta">
+                                    <span>Repository File Organization</span>
+                                    <span>95%</span>
+                                </div>
+                                <div class="skill-level-bar">
+                                    <div class="skill-level-fill" style="width: 95%;"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item-row">
+                                <div class="skill-name-meta">
+                                    <span>Markdown Documentation</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="skill-level-bar">
+                                    <div class="skill-level-fill" style="width: 90%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Category 2: Software Development -->
+                    <div class="skill-category-card">
+                        <div class="skill-category-header">
+                            <div class="skill-category-icon">
+                                <svg viewBox="0 0 24 24">
+                                    <path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"/>
+                                </svg>
+                            </div>
+                            <h3>Software Design</h3>
+                        </div>
+
+                        <div class="skill-items-list">
+                            <div class="skill-item-row">
+                                <div class="skill-name-meta">
+                                    <span>HTML5 &amp; Semantic Markup</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="skill-level-bar">
+                                    <div class="skill-level-fill" style="width: 90%;"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item-row">
+                                <div class="skill-name-meta">
+                                    <span>CSS3 / Flexbox &amp; Grid</span>
+                                    <span>88%</span>
+                                </div>
+                                <div class="skill-level-bar">
+                                    <div class="skill-level-fill" style="width: 88%;"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item-row">
+                                <div class="skill-name-meta">
+                                    <span>Algorithms &amp; Data Structures</span>
+                                    <span>84%</span>
+                                </div>
+                                <div class="skill-level-bar">
+                                    <div class="skill-level-fill" style="width: 84%;"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item-row">
+                                <div class="skill-name-meta">
+                                    <span>Responsive UI &amp; Theming</span>
+                                    <span>86%</span>
+                                </div>
+                                <div class="skill-level-bar">
+                                    <div class="skill-level-fill" style="width: 86%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Category 3: Collaboration & Engineering -->
+                    <div class="skill-category-card">
+                        <div class="skill-category-header">
+                            <div class="skill-category-icon">
+                                <svg viewBox="0 0 24 24">
+                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                </svg>
+                            </div>
+                            <h3>Collaboration &amp; Quality</h3>
+                        </div>
+
+                        <div class="skill-items-list">
+                            <div class="skill-item-row">
+                                <div class="skill-name-meta">
+                                    <span>Team Progress Tracking</span>
+                                    <span>92%</span>
+                                </div>
+                                <div class="skill-level-bar">
+                                    <div class="skill-level-fill" style="width: 92%;"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item-row">
+                                <div class="skill-name-meta">
+                                    <span>Code Reviews &amp; QA</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="skill-level-bar">
+                                    <div class="skill-level-fill" style="width: 85%;"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item-row">
+                                <div class="skill-name-meta">
+                                    <span>Agile Team Practices</span>
+                                    <span>86%</span>
+                                </div>
+                                <div class="skill-level-bar">
+                                    <div class="skill-level-fill" style="width: 86%;"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item-row">
+                                <div class="skill-name-meta">
+                                    <span>Problem Solving &amp; Tenacity</span>
+                                    <span>98%</span>
+                                </div>
+                                <div class="skill-level-bar">
+                                    <div class="skill-level-fill" style="width: 98%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= EDUCATION SECTION ================= -->
+        <section class="section" id="education">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Academic Background</span>
+                    <h2 class="section-title">Education</h2>
+                    <p class="section-subtitle">
+                        Building a strong academic foundation in Computer Science Engineering at ICCT COLLEGES.
+                    </p>
+                </div>
+
+                <div class="education-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-badge-bar">
+                            <span class="timeline-institution">ICCT COLLEGES</span>
+                            <span class="timeline-year-tag">Senior Year · 4th Year</span>
+                        </div>
+                        <h3 class="timeline-title">Bachelor of Science in Computer Science Engineering</h3>
+                        <p class="timeline-description">
+                            Engaged in comprehensive computer science curriculum covering Software Engineering Principles, Advanced Database Management Systems, System Analysis and Design, and Network Architecture. Leading collaborative development workflows in flagship projects including <strong>Project Nexus</strong>.
+                        </p>
+                        <div class="pill-list">
+                            <span class="pill-item">Software Design Project</span>
+                            <span class="pill-item">Version Control (Git/GitHub)</span>
+                            <span class="pill-item">Systems Architecture</span>
+                            <span class="pill-item">Collaborative Engineering</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= CONTACT SECTION ================= -->
+        <section class="section section-alt" id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Get in Touch</span>
+                    <h2 class="section-title">Connect &amp; Collaborate</h2>
+                    <p class="section-subtitle">
+                        Interested in Project Nexus, software design collaboration, or academic discussions? Let's connect!
+                    </p>
+                </div>
+
+                <div class="contact__grid">
+                    <div class="contact-info-card">
+                        <h3>Let's Build Together</h3>
+                        <p>
+                            As a 4th year Computer Science Engineer at ICCT COLLEGES, I welcome opportunities to collaborate on version-controlled software design projects, team initiatives, and technical challenges.
+                        </p>
+
+                        <div class="contact-methods-list">
+                            <div class="contact-method-item">
+                                <div class="contact-icon">
+                                    <svg viewBox="0 0 24 24">
+                                        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 0 1 0-5 2.5 2.5 0 0 1 0 5z"/>
+                                    </svg>
+                                </div>
+                                <div class="contact-text-meta">
+                                    <h4>Institution &amp; Location</h4>
+                                    <span>ICCT COLLEGES, Philippines</span>
+                                </div>
+                            </div>
+
+                            <div class="contact-method-item">
+                                <div class="contact-icon">
+                                    <svg viewBox="0 0 24 24">
+                                        <path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.54-3.88-1.54-.52-1.32-1.28-1.67-1.28-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.75 1.18 1.75 1.18 1.02 1.75 2.68 1.24 3.34.94.1-.74.4-1.24.72-1.52-2.55-.29-5.23-1.28-5.23-5.67 0-1.25.45-2.27 1.17-3.07-.12-.29-.5-1.46.11-3.05 0 0 .95-.3 3.1 1.17.9-.25 1.87-.38 2.83-.38.96 0 1.93.13 2.83.38 2.15-1.47 3.1-1.17 3.1-1.17.61 1.59.23 2.76.11 3.05.73.8 1.17 1.82 1.17 3.07 0 4.4-2.69 5.38-5.25 5.67.41.36.77 1.07.77 2.16v3.2c0 .31.21.67.8.56C20.7 21.39 24 17.08 24 12 24 5.73 18.27.5 12 .5z"/>
+                                    </svg>
+                                </div>
+                                <div class="contact-text-meta">
+                                    <h4>Repository Platform</h4>
+                                    <span>GitHub (Project Nexus)</span>
+                                </div>
+                            </div>
+
+                            <div class="contact-method-item">
+                                <div class="contact-icon">
+                                    <svg viewBox="0 0 24 24">
+                                        <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                                    </svg>
+                                </div>
+                                <div class="contact-text-meta">
+                                    <h4>Email Inquiry</h4>
+                                    <span>johnbarry.blase@example.com</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Message Card -->
+                    <div class="contact-form-card">
+                        <h3>Send a Message</h3>
+                        <form id="contactForm" onsubmit="event.preventDefault(); alert('Thank you for reaching out! Message received.');">
+                            <div class="form-group">
+                                <label for="senderName" class="form-label">Your Name</label>
+                                <input type="text" id="senderName" class="form-input" placeholder="e.g. Maria Santos" required />
+                            </div>
+
+                            <div class="form-group">
+                                <label for="senderEmail" class="form-label">Your Email</label>
+                                <input type="email" id="senderEmail" class="form-input" placeholder="e.g. maria@example.com" required />
+                            </div>
+
+                            <div class="form-group">
+                                <label for="senderSubject" class="form-label">Subject</label>
+                                <input type="text" id="senderSubject" class="form-input" placeholder="e.g. Project Nexus Collaboration" required />
+                            </div>
+
+                            <div class="form-group">
+                                <label for="senderMessage" class="form-label">Message</label>
+                                <textarea id="senderMessage" class="form-textarea" placeholder="Write your message here..." required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary" style="width: 100%;">
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <h4>John Barry V. Blase</h4>
+                    <p>4th Year Computer Science Engineer · ICCT COLLEGES · Project Nexus</p>
+                </div>
+
+                <div class="footer-nav">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#nexus">Project Nexus</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#education">Education</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> John Barry V. Blase. All rights reserved.</p>
+                <button class="back-to-top-btn" id="backToTopBtn" type="button" aria-label="Back to top">
+                    Back to top
+                    <svg viewBox="0 0 24 24">
+                        <path d="M12 4l-8 8h5v8h6v-8h5l-8-8z"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ================= JAVASCRIPT ================= -->
+    <script>
+        // 1. Light / Dark Theme Toggle with LocalStorage
+        const htmlElement = document.documentElement;
+        const themeToggleBtn = document.getElementById('themeToggleBtn');
+        const sunIcon = themeToggleBtn.querySelector('.sun-icon');
+        const moonIcon = themeToggleBtn.querySelector('.moon-icon');
+
+        function applyTheme(theme) {
+            htmlElement.setAttribute('data-theme', theme);
+            if (theme === 'dark') {
+                sunIcon.style.display = 'none';
+                moonIcon.style.display = 'block';
+            } else {
+                sunIcon.style.display = 'block';
+                moonIcon.style.display = 'none';
+            }
+            localStorage.setItem('nexus-portfolio-theme', theme);
+        }
+
+        // Initialize Theme from Storage or System Preference
+        const storedTheme = localStorage.getItem('nexus-portfolio-theme');
+        if (storedTheme) {
+            applyTheme(storedTheme);
+        } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            applyTheme('dark');
+        } else {
+            applyTheme('light');
+        }
+
+        themeToggleBtn.addEventListener('click', () => {
+            const currentTheme = htmlElement.getAttribute('data-theme') || 'light';
+            const nextTheme = currentTheme === 'light' ? 'dark' : 'light';
+            applyTheme(nextTheme);
+        });
+
+        // 2. Mobile Navigation Hamburger Menu Toggle
+        const navToggleBtn = document.getElementById('navToggleBtn');
+        const navbarLinks = document.getElementById('navbarLinks');
+
+        navToggleBtn.addEventListener('click', () => {
+            const isExpanded = navToggleBtn.getAttribute('aria-expanded') === 'true';
+            navToggleBtn.setAttribute('aria-expanded', String(!isExpanded));
+            navToggleBtn.classList.toggle('active');
+            navbarLinks.classList.toggle('active');
+        });
+
+        // Close mobile drawer when a link is clicked
+        navbarLinks.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                navToggleBtn.classList.remove('active');
+                navbarLinks.classList.remove('active');
+                navToggleBtn.setAttribute('aria-expanded', 'false');
+            });
+        });
+
+        // 3. Highlight Active Navigation Link on Scroll
+        const sections = document.querySelectorAll('section[id]');
+        window.addEventListener('scroll', () => {
+            const scrollY = window.pageYOffset;
+            sections.forEach(current => {
+                const sectionHeight = current.offsetHeight;
+                const sectionTop = current.offsetTop - 120;
+                const sectionId = current.getAttribute('id');
+                const navLink = document.querySelector(`.navbar__links a[href*='${sectionId}']`);
+
+                if (navLink) {
+                    if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+                        navLink.classList.add('active');
+                    } else {
+                        navLink.classList.remove('active');
+                    }
+                }
+            });
+        });
+
+        // 4. Back to Top Button
+        const backToTopBtn = document.getElementById('backToTopBtn');
+        backToTopBtn.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // 5. Dynamic Current Year in Footer
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
